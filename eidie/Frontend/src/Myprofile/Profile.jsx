@@ -7,6 +7,9 @@ export default function Profile() {
             <Titlebar />
             <div className='panel'>
                 <h1>My Account</h1>
+                <div className='profile-menu'>
+                    <font>Add account</font>
+                </div>
             </div>
         </div>
     )
