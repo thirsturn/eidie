@@ -9,13 +9,13 @@ export default function Titlebar() {
         <div className='title-bar'>
 
             <h1 className='title-name'>
-                EIDIÉ
+                eidie
             </h1>
             <nav className='nav-bar'>
                 <ul className='nav-list'>
                     <li><a href="/"><img src={home} alt="" /></a></li>
                     <li><a href="/notifications"><img src={notifi} alt="" /></a></li>
-                    <li><a href=""><img src={profile} alt="" /></a></li>
+                    <li><a href="/account"><img src={profile} alt="" /></a></li>
                 </ul>
             </nav>
         </div>

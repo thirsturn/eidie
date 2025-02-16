@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Home from './Home'
-import Notification from './Notification'
+import Home from './Home/Home'
+import Notification from './Notifications/Notification'
+import Profile from './Myprofile/Profile'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/notifications" element={<Notification />}></Route>
+          <Route path='/account' element={<Profile />}></Route>
         </Routes>
       </BrowserRouter>
 
