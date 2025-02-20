@@ -1,0 +1,18 @@
+project/
+│── backend/            # Node.js + MySQL Backend
+│   ├── uploads/        # Stores uploaded images & videos
+│   ├── config/         # Database & other configurations
+│   │   ├── db.js       # MySQL Database Connection
+│   ├── routes/         # API routes
+│   │   ├── upload.js   # Upload & retrieval APIs
+│   ├── server.js       # Main Express Server
+│   ├── .env            # Environment variables
+│── frontend/           # React.js Frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── UploadForm.js # Upload form component
+│   │   ├── App.js       # Main App
+│   ├── public/
+│   ├── package.json
+│── .gitignore
+│── README.md
